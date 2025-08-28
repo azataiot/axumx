@@ -8,7 +8,7 @@ documentation = "https://docs.rs/axumx"
 keywords = ["axum", "web", "http", "api", "rest"]
 categories = ["web-programming::http-server", "web-programming", "development-tools"]
 edition = "2024"
-license = "MIT OR Apache-2.0"
+license = "MIT"
 
 [dependencies]
 axum = { version = "0.8", default-features = false, features = ["macros"] }
