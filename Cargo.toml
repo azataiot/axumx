@@ -1,0 +1,9 @@
+[package]
+name = "axumx"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[dependencies]
+axum = { version = "0.8", default-features = false, features = ["macros"] }
+serde = { version = "1", features = ["derive"] }
