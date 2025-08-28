@@ -1,9 +1,14 @@
 [package]
 name = "axumx"
-description = "Axum extensions for building consistent APIs — responses, errors, pagination, middleware."
 version = "0.1.0"
+description = "Extra utilities and patterns for Axum: unified API responses, errors, pagination, middleware."
+repository = "https://github.com/azataiot/axumx"
+homepage = "https://github.com/azataiot/axumx"
+documentation = "https://docs.rs/axumx"
+keywords = ["axum", "web", "http", "api", "rest"]
+categories = ["web-programming::http-server", "web-programming", "development-tools"]
 edition = "2024"
-license = "MIT"
+license = "MIT OR Apache-2.0"
 
 [dependencies]
 axum = { version = "0.8", default-features = false, features = ["macros"] }
